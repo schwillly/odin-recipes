@@ -1,0 +1,35 @@
+* {
+    font-size: 20pt;
+}
+
+.container {
+    display: flex;
+    background-color: blue;
+    border: solid 1px black;
+    justify-content: center;
+}
+
+.header {
+    color: antiquewhite;
+    font-size: 35pt;
+    font-weight: 900;
+    
+   
+}   
+
+a {
+    color: darkblue;
+    text-decoration: none;
+ 
+}
+
+.list {
+    display: flex;
+    justify-content: space-around;
+}
+
+img { 
+    display: block;   
+    margin: 200px auto 20px auto;
+  
+}
