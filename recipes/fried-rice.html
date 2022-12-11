@@ -14,8 +14,16 @@
             
         }
 
+        .description {
+            color: black;
+            
+
+        }
+
+
+
         .photos {
-            display: inline-flex;
+            display: flex;
             justify-content: space-around; 
             flex-wrap: wrap;
            
@@ -31,13 +39,13 @@
 <body>
 
     <div class="head"><h1>Fried Rice</h1></div>
-    <p>Fried rice is quick and easy, and you can throw whatever you have on 
+    <p class="description">Fried rice is quick and easy, and you can throw whatever you have on 
     hand into it, making it the perfect recipie for using up leftovers and scraps.
     It's also best to use leftover rice when making fried rice, so the next time
     you make a batch of rice, make extra and keep some in the fridge for fried rice.
     Future you will thank you!</p>
 
-<h2>Ingredients</h2>
+<div class="ingredients"><h2>Ingredients</h2>
     <ul>
         <li>(Leftover) Rice</li>
         <li>Any quick-cooking vegetables</li>
@@ -48,9 +56,9 @@
         <li>Sriracha or other hot sauce (optional)</li>
         <li>Cooking oil</li>
         <li>Seasonings: Pepper, garlic powder, onion powder, etc. The world's your oyster!</li>
-    </ul>
+    </ul></div>
 
-<h2>Directions</h2>
+<div class="directions"><h2>Directions</h2>
     <ol>
         <li>Before we start cooking, we need to get all our ingredients and
             chop them into bite-sized pieces. Stir-frying happens quickly,
@@ -74,7 +82,7 @@
             chopped green onions or sesame seeds. After all, we eat with our eyes first.</li> 
         <li>Dig in!</li>
 
-    </ol> 
+    </ol> </div>
 
     <div class="photos">
         <img src="../images/spam-and-onion.jpg">
